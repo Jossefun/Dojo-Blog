@@ -21,3 +21,11 @@
 //        })
 
 // }, []);   //input some element inside this Array so the useEffect will execute anytime u do some change in this element  
+
+
+//<div className="blog-preview" key={blog.id}>
+//<Link to= {`/blogs/${blog.id}`}  >
+//     <h2> {blog.title} </h2>
+ //    <p>  Writing by {blog.author}  </p>
+//</Link>
+//</div>

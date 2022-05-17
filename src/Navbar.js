@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; //Using reat Link for saving request time
+import { Link } from 'react-router-dom'; //Using react Link for saving request time
 
 const Navbar = () => {
 

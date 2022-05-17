@@ -34,12 +34,12 @@ const useFatch = (url) => {  //here we getting th url from home component
                               setError(err.message)
                               setIsPending(false)
                             } 
-                        })
+                        }) 
             },1000)     
-
             return () => abortCont.abort();
-    
+
     },[url]);   //everytime we call or change whats inside this array, we rerun the useEffect hook 
+    
     return { data, isPending, error } ;
 }
 
