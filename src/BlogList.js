@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const BlogList = ({ blogs, title }) => {  //like props
-
+    
     return(
         <div className="blog-list">
         
